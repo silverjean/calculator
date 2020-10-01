@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./_css/style.css">
+    <link rel="icon" href="./image/calculator.png" type="image/icon"/>
+    <title>Jean's Calculator</title>
+</head>
+<body>
+    <div class="central">
+        <form name="calculator">
+            <input type="text" id="display" name="textview" class="textview">
+            <div class="buttons">
+                <input type="button" id="seven" value="7" onclick="insert(7)">
+                <input type="button" id="eight" value="8" onclick="insert(8)">
+                <input type="button" id="nine" value="9" onclick="insert(9)">
+                <input type="button" id="divide" value="&divide;" onclick="insert('/')"><br>
+                <input type="button" id="four" value="4" onclick="insert(4)">
+                <input type="button" id="five" value="5" onclick="insert(5)">
+                <input type="button" id="six" value="6" onclick="insert(6)">
+                <input type="button" id="multi" value="*" onclick="insert('*')"><br>
+                <input type="button" id="one" value="1" onclick="insert(1)">
+                <input type="button" id="two" value="2" onclick="insert(2)">
+                <input type="button" id="three" value="3" onclick="insert(3)">
+                <input type="button" id="subs" value="-" onclick="insert('-')"><br>
+                <input type="button" id="clear" value="AC" onclick="clean()">
+                <input type="button" id="zero" value="0" onclick="insert(0)">
+                <input type="button" id="point" value="." onclick="insert('.')">
+                <input type="button" id="add" value="+" onclick="insert('+')"><br>
+                <input type="button" id="equall" value="=" onclick="equal()">    
+            </div>
+        </form>
+    </div>
+
+
+
+        <script src="./_scripts/index.js"></script>
+</body>
+</html>
